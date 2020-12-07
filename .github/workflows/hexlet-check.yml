@@ -11,7 +11,7 @@ name: hexlet-check
 on:
   push:
     branches:
-      - '**'
+      - main
 
 jobs:
   build:
@@ -21,3 +21,7 @@ jobs:
 
       - name: Hexlet project check
         uses: hexlet/project-action@release
+	# Run linter
+      - name: Run linter
+	run: |
+	  make lint
