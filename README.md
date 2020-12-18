@@ -34,9 +34,9 @@ Congratulations, Roman!
 
 ## Install
 
-0 Clone repo or download zip
-0 `$ make install`
-0 `$ npm link`
+1. Clone repo or download zip
+2. `$ make install`
+3. `$ npm link`
 
 ## Run game
 
