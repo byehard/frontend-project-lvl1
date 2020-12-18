@@ -40,7 +40,6 @@ Congratulations, Roman!
 
 ## Run game
 
-Run in console
 * Parity check `$ brain-even`
 * Calculator `$ brain-calc`
 * Great common divisor `$ brain-gcd`
