@@ -45,9 +45,11 @@ Run in console
 * Calculator `$ brain-calc`
 * Great common divisor `$ brain-gcd`
 * Progression `$ brain-progression`
+* Prime number `$ brain-prime`
 
 ### Links demo (asciinema.org)
 * [brain-even](https://asciinema.org/a/rpt9bwmFzELYBb23iD71Y4g1U)
 * [brain-calc](https://asciinema.org/a/tJUa7jho0RbdcVBkpL8FUNz3m)
 * [brain-gcd](https://asciinema.org/a/C4zDX1ICd1SW04zpPujQYt9Z7)
 * [brain-progression](https://asciinema.org/a/mdK66eggQpdKOjWQYcDV4bEmI)
+* [brain-prime](https://asciinema.org/a/tVU5YDWDedPR1aflnKz6qDMYn)
