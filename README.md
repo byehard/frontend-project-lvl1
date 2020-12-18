@@ -5,7 +5,7 @@
 
 ## About:
 
-Brain Games - my first education project on hexlet.io. 
+Brain Games - this is my first education project on hexlet.io. 
 
 Brain Games is a set of five console games, built on the principle of popular mobile brain training apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again. Games:
 * Calculator. Arithmetic expressions to be evaluated.
@@ -40,7 +40,6 @@ Congratulations, Roman!
 
 ## Run game
 
-Run in console
 * Parity check `$ brain-even`
 * Calculator `$ brain-calc`
 * Great common divisor `$ brain-gcd`
