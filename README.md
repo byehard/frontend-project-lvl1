@@ -29,7 +29,8 @@ Correct!
 Question: 12 15 18 21 .. 27 30 33
 Your answer: 24 # Пользователь вводит ответ
 Correct!
-Congratulations, Roman!```
+Congratulations, Roman!
+```
 
 ## Install
 
