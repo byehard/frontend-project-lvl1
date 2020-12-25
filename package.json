@@ -4,6 +4,8 @@
   "description": "Brain Games",
   "main": "index.js",
   "type": "module",
+  "author": "Anton Mamontov",
+  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,16 +21,16 @@
     "type": "git",
     "url": "git+https://github.com/byehard/frontend-project-lvl1.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/byehard/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/byehard/frontend-project-lvl1#readme",
   "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "readline-sync": "^1.4.10"
+    "eslint-plugin-import": "^2.22.1"
   }
 }

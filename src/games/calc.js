@@ -1,5 +1,5 @@
-import game from '../index.js';
-import getRandomInt from '../rndnmb.js';
+import startGame from '../index.js';
+import getRandomInt from '../random-number.js';
 
 const minNumberForGenerate = 0;
 const maxNumberForGenerate = 100;
@@ -9,7 +9,7 @@ const maxIndexForGenerate = 2;
 
 const gameDescription = 'What is the result of the expression?';
 
-function calculate(firstOperand, secondOperand, operator) {
+function getSummarize(firstOperand, secondOperand, operator) {
   let result = 0;
   switch (operator) {
     case '+':
@@ -33,9 +33,9 @@ function questionAndAnswer() {
   const indexOnOparation = getRandomInt(minIndexForGenerate, maxIndexForGenerate);
   const operator = operators[indexOnOparation];
   const question = [firstOperand, operator, secondOperand].join(' ');
-  const correctAnswer = calculate(firstOperand, secondOperand, operator).toString();
+  const correctAnswer = getSummarize(firstOperand, secondOperand, operator).toString();
 
   return [question, correctAnswer];
 }
 
-export default () => game(gameDescription, questionAndAnswer);
+export default () => startGame(gameDescription, questionAndAnswer);

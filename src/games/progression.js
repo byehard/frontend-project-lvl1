@@ -1,5 +1,5 @@
-import game from '../index.js';
-import getRandomInt from '../rndnmb.js';
+import startGame from '../index.js';
+import getRandomInt from '../random-number.js';
 
 const minStepProgression = 2;
 const maxStepProgression = 10;
@@ -34,4 +34,4 @@ function questionAndAnswer() {
   return [question, correctAnswer];
 }
 
-export default () => game(gameDescription, questionAndAnswer);
+export default () => startGame(gameDescription, questionAndAnswer);

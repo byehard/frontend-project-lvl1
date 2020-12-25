@@ -1,5 +1,5 @@
-import game from '../index.js';
-import getRandomInt from '../rndnmb.js';
+import startGame from '../index.js';
+import getRandomInt from '../random-number.js';
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -22,4 +22,4 @@ function questionAndAnswer() {
   return [question, correctAnswer];
 }
 
-export default () => game(gameDescription, questionAndAnswer);
+export default () => startGame(gameDescription, questionAndAnswer);
